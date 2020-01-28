@@ -21,6 +21,8 @@ uniquify <- function(vec) {
   unique_values
 }
 
+##adding a comment and testing commit
+
 # Read data and get unique climate values
 get_climates <- function() {
   planets <- read.csv2(here::here("planets.csv"))#,stringsAsFactors = FALSE)
